@@ -1,0 +1,6 @@
+framework module Pods_XcodeGenTest {
+  umbrella header "Pods-XcodeGenTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
