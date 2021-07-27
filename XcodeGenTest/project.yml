@@ -1,0 +1,11 @@
+name: XcodeGenTest
+targets:
+    XcodeGenTest:
+        settings:
+            base:
+            INFOPLIST_FILE: XcodeGenTest/Info.plist
+            PRODUCT_BUNDLE_IDENTIFIER: com.teruten.XcodeGenTest
+        type: application
+        platform: iOS
+        deploymentTarget: 13.0
+        sources: [XcodeGenTest]
